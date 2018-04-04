@@ -5,13 +5,17 @@ Author : Ali0th
 相信大家入手第一个DApp部署就是Pet-shop，本源码对其中关键脚本做了详细注解。
 
 其中，关键文件为：
+
 > contracts/Adoption.sol
+>
 > migrations/2_deploy_contracts.js
+>
 > src/app.js
+>
 > test/TestAdoption.sol
 
 ```bash
-
+Pet-shop
 │  bs-config.json # 基础配置
 │  package-lock.json
 │  package.json
@@ -34,18 +38,18 @@ Author : Ali0th
 ├─node_modules
 │
 ├─src # 网站源码
-│  │  index.html
+│  │  index.html # 前端首页
 │  │  pets.json
 │  ├─css
 │  ├─fonts
 │  ├─images
 │  └─js
-│          app.js
+│          app.js # 前端交互脚本
 │          bootstrap.min.js
 │          truffle-contract.js
 │          web3.min.js
 │
 └─test
         .gitkeep
-        TestAdoption.sol
+        TestAdoption.sol # 合约函数测试脚本
 ```
